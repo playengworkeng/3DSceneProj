@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89ADBECA1D844EE3000EA4CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89ADBEC91D844EE3000EA4CE /* main.m */; };
+		89ADBECD1D844EE3000EA4CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89ADBECC1D844EE3000EA4CE /* AppDelegate.m */; };
+		89ADBECF1D844EE3000EA4CE /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 89ADBECE1D844EE3000EA4CE /* art.scnassets */; };
+		89ADBED21D844EE3000EA4CE /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89ADBED11D844EE3000EA4CE /* GameViewController.m */; };
+		89ADBED51D844EE3000EA4CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89ADBED31D844EE3000EA4CE /* Main.storyboard */; };
+		89ADBED71D844EE3000EA4CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89ADBED61D844EE3000EA4CE /* Assets.xcassets */; };
+		89ADBEDA1D844EE3000EA4CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89ADBED81D844EE3000EA4CE /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		89ADBEC51D844EE3000EA4CE /* 3DScene.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3DScene.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89ADBEC91D844EE3000EA4CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		89ADBECB1D844EE3000EA4CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		89ADBECC1D844EE3000EA4CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		89ADBECE1D844EE3000EA4CE /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		89ADBED01D844EE3000EA4CE /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		89ADBED11D844EE3000EA4CE /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		89ADBED41D844EE3000EA4CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89ADBED61D844EE3000EA4CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89ADBED91D844EE3000EA4CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89ADBEDB1D844EE3000EA4CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89ADBEC21D844EE3000EA4CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89ADBEBC1D844EE3000EA4CE = {
+			isa = PBXGroup;
+			children = (
+				89ADBEC71D844EE3000EA4CE /* 3DScene */,
+				89ADBEC61D844EE3000EA4CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89ADBEC61D844EE3000EA4CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89ADBEC51D844EE3000EA4CE /* 3DScene.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89ADBEC71D844EE3000EA4CE /* 3DScene */ = {
+			isa = PBXGroup;
+			children = (
+				89ADBECB1D844EE3000EA4CE /* AppDelegate.h */,
+				89ADBECC1D844EE3000EA4CE /* AppDelegate.m */,
+				89ADBECE1D844EE3000EA4CE /* art.scnassets */,
+				89ADBED01D844EE3000EA4CE /* GameViewController.h */,
+				89ADBED11D844EE3000EA4CE /* GameViewController.m */,
+				89ADBED31D844EE3000EA4CE /* Main.storyboard */,
+				89ADBED61D844EE3000EA4CE /* Assets.xcassets */,
+				89ADBED81D844EE3000EA4CE /* LaunchScreen.storyboard */,
+				89ADBEDB1D844EE3000EA4CE /* Info.plist */,
+				89ADBEC81D844EE3000EA4CE /* Supporting Files */,
+			);
+			path = 3DScene;
+			sourceTree = "<group>";
+		};
+		89ADBEC81D844EE3000EA4CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89ADBEC91D844EE3000EA4CE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89ADBEC41D844EE3000EA4CE /* 3DScene */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89ADBEDE1D844EE3000EA4CE /* Build configuration list for PBXNativeTarget "3DScene" */;
+			buildPhases = (
+				89ADBEC11D844EE3000EA4CE /* Sources */,
+				89ADBEC21D844EE3000EA4CE /* Frameworks */,
+				89ADBEC31D844EE3000EA4CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 3DScene;
+			productName = 3DScene;
+			productReference = 89ADBEC51D844EE3000EA4CE /* 3DScene.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89ADBEBD1D844EE3000EA4CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = playengworkeng;
+				TargetAttributes = {
+					89ADBEC41D844EE3000EA4CE = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 5P2MA4UM2J;
+					};
+				};
+			};
+			buildConfigurationList = 89ADBEC01D844EE3000EA4CE /* Build configuration list for PBXProject "3DScene" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89ADBEBC1D844EE3000EA4CE;
+			productRefGroup = 89ADBEC61D844EE3000EA4CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89ADBEC41D844EE3000EA4CE /* 3DScene */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89ADBEC31D844EE3000EA4CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89ADBECF1D844EE3000EA4CE /* art.scnassets in Resources */,
+				89ADBEDA1D844EE3000EA4CE /* LaunchScreen.storyboard in Resources */,
+				89ADBED71D844EE3000EA4CE /* Assets.xcassets in Resources */,
+				89ADBED51D844EE3000EA4CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89ADBEC11D844EE3000EA4CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89ADBECD1D844EE3000EA4CE /* AppDelegate.m in Sources */,
+				89ADBED21D844EE3000EA4CE /* GameViewController.m in Sources */,
+				89ADBECA1D844EE3000EA4CE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		89ADBED31D844EE3000EA4CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89ADBED41D844EE3000EA4CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89ADBED81D844EE3000EA4CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89ADBED91D844EE3000EA4CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89ADBEDC1D844EE3000EA4CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		89ADBEDD1D844EE3000EA4CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89ADBEDF1D844EE3000EA4CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 3DScene/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.playengworkeng.-DScene";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		89ADBEE01D844EE3000EA4CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 3DScene/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.playengworkeng.-DScene";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89ADBEC01D844EE3000EA4CE /* Build configuration list for PBXProject "3DScene" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89ADBEDC1D844EE3000EA4CE /* Debug */,
+				89ADBEDD1D844EE3000EA4CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89ADBEDE1D844EE3000EA4CE /* Build configuration list for PBXNativeTarget "3DScene" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89ADBEDF1D844EE3000EA4CE /* Debug */,
+				89ADBEE01D844EE3000EA4CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89ADBEBD1D844EE3000EA4CE /* Project object */;
+}
